@@ -25,6 +25,7 @@
 		792EB7A1212E341D00F1D361 /* Realm+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792EB7A0212E341D00F1D361 /* Realm+Ext.swift */; };
 		792EB7A4212E365C00F1D361 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792EB7A3212E365C00F1D361 /* Repository.swift */; };
 		792EB7A7212E369600F1D361 /* RunLoopThreadScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792EB7A6212E369600F1D361 /* RunLoopThreadScheduler.swift */; };
+		792EB7A9212E388300F1D361 /* README.MD in Resources */ = {isa = PBXBuildFile; fileRef = 792EB7A8212E388300F1D361 /* README.MD */; };
 		E0FE03294736FA5DCF4EC232 /* Pods_Domain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DABF72985E51FAC7422B0372 /* Pods_Domain.framework */; };
 		E1D29DF4FEB44410E99ECF8E /* Pods_RealmPlatform.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 065ADB330A88B0E5B1A021B8 /* Pods_RealmPlatform.framework */; };
 /* End PBXBuildFile section */
@@ -85,6 +86,7 @@
 		792EB7A0212E341D00F1D361 /* Realm+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Realm+Ext.swift"; sourceTree = "<group>"; };
 		792EB7A3212E365C00F1D361 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
 		792EB7A6212E369600F1D361 /* RunLoopThreadScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunLoopThreadScheduler.swift; sourceTree = "<group>"; };
+		792EB7A8212E388300F1D361 /* README.MD */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.MD; sourceTree = "<group>"; };
 		7B54DDC799B3A516E08D9CFF /* Pods-Domain.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Domain.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Domain/Pods-Domain.debug.xcconfig"; sourceTree = "<group>"; };
 		7CD165E0CB9E9D556F5DC367 /* Pods_CleanArchitectureRealm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CleanArchitectureRealm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DABF72985E51FAC7422B0372 /* Pods_Domain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Domain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -138,6 +140,7 @@
 		792EB755212E2B1D00F1D361 = {
 			isa = PBXGroup;
 			children = (
+				792EB7A8212E388300F1D361 /* README.MD */,
 				792EB760212E2B1D00F1D361 /* CleanArchitectureRealm */,
 				792EB779212E2E3700F1D361 /* RealmPlatform */,
 				792EB78B212E2E5F00F1D361 /* Domain */,
@@ -391,6 +394,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				792EB7A9212E388300F1D361 /* README.MD in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
